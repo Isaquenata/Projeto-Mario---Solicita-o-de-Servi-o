@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Milhão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <header>
+        <img class="img-cabeça-mario" src="./img/logo-header.png" alt="Logo do Mario">
+        <div>
+            <a class="Header-Home">Home</a>
+            <a class="Header-Fale-Conosco">Fale Conosco</a>
+            <a class="Header-Nossos-Serviços">Nossos Serviços</a>
+        </div>
+    </header>
+    <div class="Informação-central">
+        <main>
+            <img class="img-logo-SuperMario" src="./img/logo.png" alt="Logo do Super Mario">
+            <p>
+                🔧Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo!🔧
+            </p>
+            <p>
+                Voce já se encontrou em uma situação de emergência com encanamento?
+                Vazamentos inesperados, canos entupidos ou torneiras que não param de pingar?
+                Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a vocês os encanadores mais famosos
+                do
+                Reino dos Cogumelos - Mario & Luigi
+            </p>
+            <button onclick="mostrarForm()" class="botao-main">Entre em contato</button>
+        </main>
+        <figure>
+            <img class="imagem-luigi-mario" src="./img/mario.png" alt="Imagem do Mario e Luigi">
+        </figure>
+    </div>
+
+    <section class="video-fundo">
+        <video src="./img/video.mp4" autoplay loop muted></video>
+        <div class="Mascara-video">
+
+        </div>
+    </section>
+
+    <section class="section-whatshapp">
+        <a href="https://wa.me/5584563452621?text=Quero%20fazer%20um%20servi%C3%A7o!" target="_blank"
+            class="Link-whatshapp">
+            <img src="./img/whatsapp.png" alt="Ícone do WhatsApp">
+        </a>
+    </section>
+
+    <form class="formulario" action="https://formcarry.com/s/Yo7ToqhX5NL" method="POST" enctype="multipart/form-data">
+        <input name="nome" type="text" placeholder="Seu nome">
+        <input name="email" type="text" placeholder="Seu email">
+        <textarea name="problema" placeholder="Digite seu problema aqui..."></textarea>
+        <button type="submit" class="botao-form">Enviar Orçamento</button>
+    </form>
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
